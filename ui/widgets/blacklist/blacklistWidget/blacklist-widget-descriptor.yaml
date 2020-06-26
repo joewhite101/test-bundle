@@ -1,0 +1,6 @@
+code: blacklist-widget
+titles:
+  en: Blacklist Widget
+  it: Blacklist Widget
+group: free
+customUiPath: blacklist-widget.ftl

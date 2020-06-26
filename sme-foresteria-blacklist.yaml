@@ -1,0 +1,30 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: sme-foresteria-blacklist
+  namespace: entando
+spec:
+  details:
+    name: sme-foresteria-blacklist
+    description: >-
+      A bundle for entando digital-exchange built with JHipster Entando
+      Blueprint
+    dist-tags:
+      latest: 1.0.0
+    time:
+      created: '2020-06-25T10:29:37.251Z'
+      modified: '2020-06-26T06:41:14.297Z'
+      1.0.0: '2020-06-25T10:29:37.251Z'
+    versions:
+      - 1.0.0
+    keywords:
+      - entando6
+      - digital-exchange
+  tags:
+    - version: 1.0.0
+      integrity: >-
+        sha512-xT1T8jgODKxSErm4M6cNTqluvglLVUqA8CTPzpfg8wn4N8JIzS+ZCkpBJJqW+2umqqU5s2GON+2ZT8AANMzwyQ==
+      shasum: 1b3ac9a80ef334c05ffd4d5a0c3439ebc52d4b5a
+      tarball: >-
+        http://192.168.178.24:9081/repository/npm-entando-local/sme-foresteria-blacklist/-/sme-foresteria-blacklist-1.0.0.tgz
+

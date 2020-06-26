@@ -1,0 +1,16 @@
+code: sme-foresteria-blacklist
+description: This is the blacklist bundle
+
+components:
+  plugins:
+    - plugins/blacklist-plugin.yaml
+
+  widgets:
+    - ui/widgets/blacklist/blacklistWidget/blacklist-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
+  pageModels:
+
+  contentTypes:
+
+  contentModels:

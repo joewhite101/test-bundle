@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "blacklist-plugin"
+spec:
+  image: fabrizioplini4entando/blacklist:1.0
+  replicas: 1
+  dbms: none
+  parameters: {}
+  ingressPath: "/blacklist"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: blacklist-admin
+    code: blacklist-admin
+  - name: blacklist-admin
+    code: "blacklist-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
