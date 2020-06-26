@@ -15,6 +15,4 @@ spec:
   roles:
   - name: blacklist-admin
     code: blacklist-admin
-  - name: blacklist-admin
-    code: "blacklist-admin"
 # entando-needle-descriptor-add-roles - Entando blueprint will add roles here
